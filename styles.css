@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #F5F9FC;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.menuIzq{
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.inputSearch{
+    background-color: #F2F2F2;
+    border: 0;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin-left: 2.8rem;
+    font-size: 1.1rem;
+}
+
+.inputSearch2{
+    background-color: transparent;
+    border: 0;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+input::placeholder{
+    background-image: url(./iconos/search.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-size: 1.2rem;
+}
+
+nav{
+    display: flex;
+}
+
+nav > a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 2.8rem;
+}
+
+.menuDer{
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.menuDer > p{
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-left: 1.2rem;
+}
+
+.iconos{
+    font-size: 1.2rem;
+    margin-left: 2rem;
+}
+
+.flecha{
+    font-size: 1rem;
+    margin-left: 1.2rem;
+}
+
+.menuDer img{
+    width: 2.5rem;
+    border-radius: 60px;
+    margin-left: 2rem;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+button{
+    padding: 2rem;
+}
+
+button > a{
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
