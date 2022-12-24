@@ -22,15 +22,21 @@ header{
     padding: 0 5rem;
 }
 
+.divInput{
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    margin-left: 2.7rem;
+    padding-left: 15px;
+}
+
 .inputSearch{
     background-color: #F2F2F2;
     border: 0;
     padding: 15px;
+    width: 280px;
     border-radius: 10px;
-    width: 300px;
-    text-align: center;
-    margin-left: 2.8rem;
     font-size: 1.1rem;
+    outline: none;
 }
 
 .inputSearch2{
@@ -42,11 +48,16 @@ header{
     font-size: 1.1rem;
 }
 
-input::placeholder{
+.inputSearch2::placeholder{
     background-image: url(./iconos/search.svg);
     background-repeat: no-repeat;
     background-position: left center;
     font-size: 1.2rem;
+}
+
+.inputSearch1::placeholder{
+    font-size: 1.2rem;
+    border: 0;
 }
 
 nav{
@@ -75,6 +86,10 @@ nav > a{
 .iconos{
     font-size: 1.2rem;
     margin-left: 2rem;
+}
+
+.iconSearch{
+    font-size: 1.2rem;
 }
 
 .flecha{
