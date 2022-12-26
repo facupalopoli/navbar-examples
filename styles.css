@@ -52,6 +52,7 @@ header{
     font-size: 1.1rem;
     outline: none;
     border-radius: 10px;
+    transition: background 0.45s ease;
 }
 
 .inputSearch2::placeholder{
