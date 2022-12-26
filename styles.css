@@ -114,6 +114,13 @@ nav > a{
     margin-left: 2rem;
 }
 
+span{
+    position: absolute;
+    top: 20px;
+    color: red;
+    font-weight: 900;
+}
+
 main{
     display: flex;
     justify-content: center;
