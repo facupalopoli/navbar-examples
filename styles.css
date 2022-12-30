@@ -18,27 +18,31 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 15px 5vw;
 }
 
 .menuIzq{
     display: flex;
     align-items: center;
-    padding: 0 5rem;
+    gap: 2.5vw;
 }
 
 .divInput{
     background-color: #F2F2F2;
     border-radius: 10px;
-    margin-left: 2.7rem;
+    
     padding-left: 15px;
+}
+
+.iconSearch{
+    color: #757575;
 }
 
 .inputSearch{
     background-color: #F2F2F2;
     border: 0;
     padding: 15px;
-    width: 280px;
+    width: 15vw;
     border-radius: 10px;
     font-size: 1.1rem;
     outline: none;
@@ -74,29 +78,30 @@ header{
 
 nav{
     display: flex;
+    gap: 2.5vw;
 }
 
 nav > a{
     font-size: 1.1rem;
     font-weight: 500;
-    margin-left: 2.8rem;
 }
 
 .menuDer{
     display: flex;
     align-items: center;
-    padding: 0 5rem;
+    gap: 1.5vw;
+    position: relative;
 }
 
 .menuDer > p{
     font-weight: 700;
-    font-size: 1.1rem;
-    margin-left: 1.2rem;
+    font-size: 1.1rem;  
+   
 }
 
 .iconos{
     font-size: 1.2rem;
-    margin-left: 2rem;
+    
 }
 
 .iconSearch{
@@ -104,21 +109,27 @@ nav > a{
 }
 
 .flecha{
-    font-size: 1rem;
-    margin-left: 1.2rem;
+    color: #757575;
 }
 
 .menuDer img{
     width: 2.5rem;
     border-radius: 60px;
-    margin-left: 2rem;
+    
+}
+
+.campana{
+    position: relative;
 }
 
 span{
+    top: -5px;
+    right: -4px;
     position: absolute;
-    top: 20px;
-    color: red;
-    font-weight: 900;
+    width: 9px;
+    height: 9px;
+    background: #FF2C63;
+    border-radius: 50%;
 }
 
 main{
