@@ -1,2 +1,2 @@
-# Navbar examples
+# Navbar section
 Study homework.
